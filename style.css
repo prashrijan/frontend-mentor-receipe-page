@@ -1,0 +1,161 @@
+*{ 
+margin:0;
+padding:0;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    font-size: 22px;
+}
+
+p, li, td{
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    font-family: 'Outfit';
+    font-size: 0.8em;
+}
+
+h1, h2{
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+header img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+main{
+    padding: 35px;
+}
+
+.description h1{
+    font-size: 2em;
+    line-height: 1.1;
+    color: hsl(24, 5%, 18%);
+}
+
+.description p{
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.preparation{
+    display: inline-block;
+    min-height: 120px;
+    width: 80%;
+    background-color:  hsl(330, 100%, 98%);
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+.preparation h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.2em;
+    font-family: 'Outfit';
+    font-weight: 700;
+}
+
+.preparation ul{
+    padding: 25px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.preparation ul li{
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.preparation ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredents{
+    margin: 20px 0;
+}
+
+.ingredents ul{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingredents ul li{
+    padding-left: 15px;
+    line-height: 1.6;
+}
+
+.instructions{
+    padding: 20px 0;
+}
+
+.instructions ol{
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instructions ol li{
+    padding-left: 30px;
+    line-height: 1.4;
+}
+
+.instructions ol li span{
+    font-weight: 700;
+}
+
+.instructions ol li::marker{
+    color:  hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nutritions{
+    padding: 20px 0;
+}
+
+
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #999; 
+}
+
+
+tr:last-child td {
+    border-bottom: none; 
+}
+
+
+tr .val{
+    color:  hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+@media screen and (min-width: 1440px) {
+
+    body{
+        font-size: 30px;
+    }
+    header{
+        padding: 40px;
+    }
+    header img{
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
